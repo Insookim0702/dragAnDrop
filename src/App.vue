@@ -1,5 +1,10 @@
 <template>
   <div id="app">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap"
+      rel="stylesheet"
+    />
     <img src="./assets/giphy.gif" />
     <h1>insoo's Draggable</h1>
     <div class="helo"><HelloWorld /></div>
@@ -19,13 +24,13 @@ export default {
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   background: #574b90;
   color: aliceblue;
+  font-family: "Ranchers", cursive;
 }
 .helo {
   display: flex;
